@@ -7,12 +7,12 @@ const ConnectDb = require("./config/db")
 require("dotenv").config()
 
 const app = express()
-const PORT = process.env.PORT || "https://backend-ser-ga4m.vercel.app/"
+const PORT = process.env.PORT || "backend1-sfd8.vercel.app/"
 
 // Middleware
 app.use(
   cors({
-     origin: "https://backend-todos-6pc2.vercel.app",
+     origin: "https://bs1-psui.vercel.app" ,
     credentials: true,
   }),
 )
